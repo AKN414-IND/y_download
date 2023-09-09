@@ -28,7 +28,9 @@ pip install pytube
 
 ```bash
 git clone https://github.com/AKN414-IND/youtube-downloader.git
+
 ```
+
 ##Usage
 <1> Paste the YouTube video URL into the text box.
 <2> Click on the "Download" button.
