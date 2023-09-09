@@ -24,16 +24,15 @@ A simple web-based application to download YouTube videos, built using Flask, HT
 pip install Flask
 pip install pytube
 ```
-##Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/AKN414-IND/youtube-downloader.git
-
 ```
 
-##Usage
-<1> Paste the YouTube video URL into the text box.
-<2> Click on the "Download" button.
-<3> The video  will be downloaded to your computer.
+## Usage
+- Paste the YouTube video URL into the text box.
+- Click on the "Download" button.
+- The video  will be downloaded to your computer.
 
 
