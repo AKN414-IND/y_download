@@ -1,9 +1,7 @@
 from flask import Flask, request, send_file
 from pytube import YouTube
 import os
-
 app = Flask(__name__)
-
 @app.route('/download', methods=['POST'])
 def download():
     link = request.form.get('link')
