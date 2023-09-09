@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <h1 class="text-2xl mb-4 text-center">Download YouTube Video</h1>
+        <form id="downloadForm" class="space-y-4">
+            <div class="input__container">
+                <label for="link" class="input__label">YouTube Video Link:</label>
+                <input type="text" id="link" name="link" placeholder="Paste the video link here" class="input">
+            </div>
+            <div style="text-align: center;">
+                <button class="download-button" type="submit">
+                    <div class="docs">Download</div>
+                    <div class="download">
+                        <img src="assets/icons8-download.gif" alt="Download">
+                    </div>
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
